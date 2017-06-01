@@ -1,0 +1,15 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+  </head>
+  
+  <body>
+   	<h1>hello world</h1>
+   	F5刷新，时间刷新后可以变，说明应用没有挂：
+   	<%=new Date() %>
+  </body>
+</html>

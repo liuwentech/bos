@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	
+	<package name="basicstruts2" extends="struts-default">
+		<!-- 需要进行权限控制的页面访问 -->
+		<action name="page_*_*">
+			<result type="dispatcher">/WEB-INF/pages/{1}/{2}.jsp</result>  <!-- 结果集 -->
+		</action>
+	</package>
+</struts>
+
+<!-- （1）   chain结果类型：Action链式处理的结果类型。
+
+（2）   chart结果类型：用于整合JFreeChart的结果类型。
+
+（3）   dispatcher结果类型：用于FreeMarker整合的结果类型。
+
+（4）   httpheader结果类型：用于控制特殊的HTTP行为的结果类型。
+
+（5）   jasper结果类型：用于JasperReports整合的结果类型。
+
+（6）   jsf结果类型：用于与JSF整合的结果类型。
+
+（7）   redirect结果类型：用于直接跳转到其他URL的结果类型。
+
+（8）   redirect-action结果类型：用于制直接跳转到其他Action的结果类型。
+
+（9）   stream结果类型：用于向浏览器返回一个InputStream(一般用于文件下载)。
+
+（10）  tiles结果类型：用于与Tiles整合的结果类型。
+
+（11）  velocity结果类型：用于与Velicity整合的结果类型。
+
+（12）  xslt结果类型：用于与XML/XSLT整合的结果类型。
+ -->
+（13）  plaintext结果类型：用于显示某个页面的原始代码的结果类型。

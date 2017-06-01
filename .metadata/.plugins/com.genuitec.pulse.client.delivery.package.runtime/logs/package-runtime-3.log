@@ -1,4 +1,6 @@
-六月 01, 2017 3:58:33 下午 com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
-信息: Package starting up at Thu Jun 01 15:58:33 CST 2017
-六月 01, 2017 3:58:37 下午 com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForWorkspaceUpdates
+六月 01, 2017 4:07:04 下午 com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+信息: Package starting up at Thu Jun 01 16:07:04 CST 2017
+六月 01, 2017 4:07:07 下午 com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForWorkspaceUpdates
 信息: Latest version of package has already been enabled in the workspace; check finished in 5ms
+六月 01, 2017 4:08:37 下午 org.hibernate.eclipse.HibernatePlugin start
+信息: HibernatePlugin Started
